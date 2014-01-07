@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		41FC787A187D4BA20073FBFA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41FC7879187D4BA20073FBFA /* Cocoa.framework */; };
+		41FC7884187D4BA20073FBFA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 41FC7882187D4BA20073FBFA /* InfoPlist.strings */; };
+		41FC7886187D4BA20073FBFA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 41FC7885187D4BA20073FBFA /* main.m */; };
+		41FC788A187D4BA20073FBFA /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 41FC7888187D4BA20073FBFA /* Credits.rtf */; };
+		41FC788D187D4BA20073FBFA /* XNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 41FC788C187D4BA20073FBFA /* XNAppDelegate.m */; };
+		41FC7890187D4BA20073FBFA /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41FC788E187D4BA20073FBFA /* MainMenu.xib */; };
+		41FC7892187D4BA20073FBFA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41FC7891187D4BA20073FBFA /* Images.xcassets */; };
+		41FC7899187D4BA20073FBFA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41FC7898187D4BA20073FBFA /* XCTest.framework */; };
+		41FC789A187D4BA20073FBFA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41FC7879187D4BA20073FBFA /* Cocoa.framework */; };
+		41FC78A2187D4BA20073FBFA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 41FC78A0187D4BA20073FBFA /* InfoPlist.strings */; };
+		41FC78A4187D4BA20073FBFA /* XNPKUNetSwitch_MacTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 41FC78A3187D4BA20073FBFA /* XNPKUNetSwitch_MacTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		41FC789B187D4BA20073FBFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41FC786E187D4BA20073FBFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41FC7875187D4BA20073FBFA;
+			remoteInfo = "XNPKUNetSwitch Mac";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		41FC7876187D4BA20073FBFA /* XNPKUNetSwitch Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "XNPKUNetSwitch Mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		41FC7879187D4BA20073FBFA /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		41FC787C187D4BA20073FBFA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		41FC787D187D4BA20073FBFA /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		41FC787E187D4BA20073FBFA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		41FC7881187D4BA20073FBFA /* XNPKUNetSwitch Mac-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "XNPKUNetSwitch Mac-Info.plist"; sourceTree = "<group>"; };
+		41FC7883187D4BA20073FBFA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		41FC7885187D4BA20073FBFA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		41FC7887187D4BA20073FBFA /* XNPKUNetSwitch Mac-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XNPKUNetSwitch Mac-Prefix.pch"; sourceTree = "<group>"; };
+		41FC7889187D4BA20073FBFA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		41FC788B187D4BA20073FBFA /* XNAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XNAppDelegate.h; sourceTree = "<group>"; };
+		41FC788C187D4BA20073FBFA /* XNAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XNAppDelegate.m; sourceTree = "<group>"; };
+		41FC788F187D4BA20073FBFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		41FC7891187D4BA20073FBFA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		41FC7897187D4BA20073FBFA /* XNPKUNetSwitch MacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "XNPKUNetSwitch MacTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		41FC7898187D4BA20073FBFA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		41FC789F187D4BA20073FBFA /* XNPKUNetSwitch MacTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "XNPKUNetSwitch MacTests-Info.plist"; sourceTree = "<group>"; };
+		41FC78A1187D4BA20073FBFA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		41FC78A3187D4BA20073FBFA /* XNPKUNetSwitch_MacTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XNPKUNetSwitch_MacTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		41FC7873187D4BA20073FBFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41FC787A187D4BA20073FBFA /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41FC7894187D4BA20073FBFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41FC789A187D4BA20073FBFA /* Cocoa.framework in Frameworks */,
+				41FC7899187D4BA20073FBFA /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41FC786D187D4BA20073FBFA = {
+			isa = PBXGroup;
+			children = (
+				41FC787F187D4BA20073FBFA /* XNPKUNetSwitch Mac */,
+				41FC789D187D4BA20073FBFA /* XNPKUNetSwitch MacTests */,
+				41FC7878187D4BA20073FBFA /* Frameworks */,
+				41FC7877187D4BA20073FBFA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		41FC7877187D4BA20073FBFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41FC7876187D4BA20073FBFA /* XNPKUNetSwitch Mac.app */,
+				41FC7897187D4BA20073FBFA /* XNPKUNetSwitch MacTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41FC7878187D4BA20073FBFA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				41FC7879187D4BA20073FBFA /* Cocoa.framework */,
+				41FC7898187D4BA20073FBFA /* XCTest.framework */,
+				41FC787B187D4BA20073FBFA /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		41FC787B187D4BA20073FBFA /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				41FC787C187D4BA20073FBFA /* AppKit.framework */,
+				41FC787D187D4BA20073FBFA /* CoreData.framework */,
+				41FC787E187D4BA20073FBFA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		41FC787F187D4BA20073FBFA /* XNPKUNetSwitch Mac */ = {
+			isa = PBXGroup;
+			children = (
+				41FC788B187D4BA20073FBFA /* XNAppDelegate.h */,
+				41FC788C187D4BA20073FBFA /* XNAppDelegate.m */,
+				41FC788E187D4BA20073FBFA /* MainMenu.xib */,
+				41FC7891187D4BA20073FBFA /* Images.xcassets */,
+				41FC7880187D4BA20073FBFA /* Supporting Files */,
+			);
+			path = "XNPKUNetSwitch Mac";
+			sourceTree = "<group>";
+		};
+		41FC7880187D4BA20073FBFA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				41FC7881187D4BA20073FBFA /* XNPKUNetSwitch Mac-Info.plist */,
+				41FC7882187D4BA20073FBFA /* InfoPlist.strings */,
+				41FC7885187D4BA20073FBFA /* main.m */,
+				41FC7887187D4BA20073FBFA /* XNPKUNetSwitch Mac-Prefix.pch */,
+				41FC7888187D4BA20073FBFA /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		41FC789D187D4BA20073FBFA /* XNPKUNetSwitch MacTests */ = {
+			isa = PBXGroup;
+			children = (
+				41FC78A3187D4BA20073FBFA /* XNPKUNetSwitch_MacTests.m */,
+				41FC789E187D4BA20073FBFA /* Supporting Files */,
+			);
+			path = "XNPKUNetSwitch MacTests";
+			sourceTree = "<group>";
+		};
+		41FC789E187D4BA20073FBFA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				41FC789F187D4BA20073FBFA /* XNPKUNetSwitch MacTests-Info.plist */,
+				41FC78A0187D4BA20073FBFA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		41FC7875187D4BA20073FBFA /* XNPKUNetSwitch Mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41FC78A7187D4BA20073FBFA /* Build configuration list for PBXNativeTarget "XNPKUNetSwitch Mac" */;
+			buildPhases = (
+				41FC7872187D4BA20073FBFA /* Sources */,
+				41FC7873187D4BA20073FBFA /* Frameworks */,
+				41FC7874187D4BA20073FBFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "XNPKUNetSwitch Mac";
+			productName = "XNPKUNetSwitch Mac";
+			productReference = 41FC7876187D4BA20073FBFA /* XNPKUNetSwitch Mac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		41FC7896187D4BA20073FBFA /* XNPKUNetSwitch MacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41FC78AA187D4BA20073FBFA /* Build configuration list for PBXNativeTarget "XNPKUNetSwitch MacTests" */;
+			buildPhases = (
+				41FC7893187D4BA20073FBFA /* Sources */,
+				41FC7894187D4BA20073FBFA /* Frameworks */,
+				41FC7895187D4BA20073FBFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41FC789C187D4BA20073FBFA /* PBXTargetDependency */,
+			);
+			name = "XNPKUNetSwitch MacTests";
+			productName = "XNPKUNetSwitch MacTests";
+			productReference = 41FC7897187D4BA20073FBFA /* XNPKUNetSwitch MacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		41FC786E187D4BA20073FBFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = XN;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = wuhaotian;
+				TargetAttributes = {
+					41FC7896187D4BA20073FBFA = {
+						TestTargetID = 41FC7875187D4BA20073FBFA;
+					};
+				};
+			};
+			buildConfigurationList = 41FC7871187D4BA20073FBFA /* Build configuration list for PBXProject "XNPKUNetSwitch Mac" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 41FC786D187D4BA20073FBFA;
+			productRefGroup = 41FC7877187D4BA20073FBFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41FC7875187D4BA20073FBFA /* XNPKUNetSwitch Mac */,
+				41FC7896187D4BA20073FBFA /* XNPKUNetSwitch MacTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		41FC7874187D4BA20073FBFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41FC7884187D4BA20073FBFA /* InfoPlist.strings in Resources */,
+				41FC7892187D4BA20073FBFA /* Images.xcassets in Resources */,
+				41FC788A187D4BA20073FBFA /* Credits.rtf in Resources */,
+				41FC7890187D4BA20073FBFA /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41FC7895187D4BA20073FBFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41FC78A2187D4BA20073FBFA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41FC7872187D4BA20073FBFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41FC788D187D4BA20073FBFA /* XNAppDelegate.m in Sources */,
+				41FC7886187D4BA20073FBFA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41FC7893187D4BA20073FBFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41FC78A4187D4BA20073FBFA /* XNPKUNetSwitch_MacTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		41FC789C187D4BA20073FBFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41FC7875187D4BA20073FBFA /* XNPKUNetSwitch Mac */;
+			targetProxy = 41FC789B187D4BA20073FBFA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		41FC7882187D4BA20073FBFA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41FC7883187D4BA20073FBFA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		41FC7888187D4BA20073FBFA /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41FC7889187D4BA20073FBFA /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		41FC788E187D4BA20073FBFA /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41FC788F187D4BA20073FBFA /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		41FC78A0187D4BA20073FBFA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41FC78A1187D4BA20073FBFA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		41FC78A5187D4BA20073FBFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		41FC78A6187D4BA20073FBFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		41FC78A8187D4BA20073FBFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XNPKUNetSwitch Mac/XNPKUNetSwitch Mac-Prefix.pch";
+				INFOPLIST_FILE = "XNPKUNetSwitch Mac/XNPKUNetSwitch Mac-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		41FC78A9187D4BA20073FBFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XNPKUNetSwitch Mac/XNPKUNetSwitch Mac-Prefix.pch";
+				INFOPLIST_FILE = "XNPKUNetSwitch Mac/XNPKUNetSwitch Mac-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		41FC78AB187D4BA20073FBFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/XNPKUNetSwitch Mac.app/Contents/MacOS/XNPKUNetSwitch Mac";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XNPKUNetSwitch Mac/XNPKUNetSwitch Mac-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "XNPKUNetSwitch MacTests/XNPKUNetSwitch MacTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		41FC78AC187D4BA20073FBFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/XNPKUNetSwitch Mac.app/Contents/MacOS/XNPKUNetSwitch Mac";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XNPKUNetSwitch Mac/XNPKUNetSwitch Mac-Prefix.pch";
+				INFOPLIST_FILE = "XNPKUNetSwitch MacTests/XNPKUNetSwitch MacTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41FC7871187D4BA20073FBFA /* Build configuration list for PBXProject "XNPKUNetSwitch Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41FC78A5187D4BA20073FBFA /* Debug */,
+				41FC78A6187D4BA20073FBFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41FC78A7187D4BA20073FBFA /* Build configuration list for PBXNativeTarget "XNPKUNetSwitch Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41FC78A8187D4BA20073FBFA /* Debug */,
+				41FC78A9187D4BA20073FBFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		41FC78AA187D4BA20073FBFA /* Build configuration list for PBXNativeTarget "XNPKUNetSwitch MacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41FC78AB187D4BA20073FBFA /* Debug */,
+				41FC78AC187D4BA20073FBFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 41FC786E187D4BA20073FBFA /* Project object */;
+}
